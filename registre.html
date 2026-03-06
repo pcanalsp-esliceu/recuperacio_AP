@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recuperacio_AP</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="simple.html">Web simple</a>
+                </li>
+                <li>
+                    <a href="div.html">Div_span</a>
+                </li>
+                <li>
+                    <a href="tablas.html">tabla</a>
+                </li>
+                <li>
+                    <a href="registre.html">registre</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Exercici,Formulari de registre</h1>
+    <div>
+        <form action="registre.html" method="get"></form>
+        <label for="nom">Nom: </label><input type="text" type="text" name="nom" id="nom">
+        <label for="Llinatge">Llinatges: </label><input type="text" name="Llinatge" id="Llinatge">
+    </div>
+    <div>
+        <label for="home">home:</label><input type="radio" name="genere" id="home" value="home">
+        <label for="dona">dona:</label><input type="radio" name="genere" id="dona" value="dona">
+        <label for="altre">altre:</label><input type="radio" name="genere" id="altre" value="altre">
+    </div>
+    <div>
+        <label for="email">email: </label><input type="email" name="email" id="email">
+        <label for="contrasenya">Contrasenya: </label> <input type="password" name="contrasenya" id="contrasenya" required minlength="5" maxlength="10">
+    </div>
+    <div>
+        <label for="data">Data de naixament: </label><input type="date" name="data" id="data" required>
+    </div>
+    <div>
+        <label for="termes">Accepta els termes i condicions</label><input type="checkbox" name="termes" id="termes">
+    </div>
+    <div>
+        <input type="submit" name="submit" id="enviar">
+    </div>
+</body>
+</html>
