@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(10, 228, 217);
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 174, 0);
+}
+
+table{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    border: 1px solid white;
+}
+.Hora{
+    background-color: #f0f0f0;
+    color: brown;
+    font-weight: bold;
+    width: 120px;
+}
+
+.pati{
+    background-color: #fff3cd;
+    color: #665200;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Serveis{
+    background-color: #cce5ff;
+    color:black;
+}
+
+.Seguretat{
+    background-color: #fde2cf ;
+    color: black;
+}
+
+.SOX{
+    background-color: #d4edda ;
+    color: black;
+}
+
+.Aplicacions{
+    background-color: #e2e3e5;
+    color: black;
+}
+
+.Programacio{
+    background-color: #e5e773;
+    color: black;
+}
+
+.Projecte{
+    background-color: #51e0c9;
+    color: black;
+}
+
+.Sostenibilitat{
+    background-color: #f18b72;
+    color: black;
+}
+
+.IPO{
+    background-color: #fa8fe3;
+    color: black;
+}
