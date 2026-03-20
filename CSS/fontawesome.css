@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tab-container-1{
+    display: flex;
+    width: 70%;
+    background-color: rgb(183, 183, 240);
+    margin: 0 auto;
+}
